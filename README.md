@@ -1,2 +1,14 @@
 # Pacman
 OOP project by Maha Usmani, Sajeel Alam, Sameer Jaipal and Zain ul Haq
+
+Instructions to compile and run the code:
+
+- Open this folder in VSCode
+- Open VSCode terminal and put this command to compile everything:
+
+	without music : g++ *.cpp -IC:\mingw_dev_lib\include\SDL2 -LC:\mingw_dev_lib\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+  with music : g++ *.cpp -IC:\mingw_dev_lib\include\SDL2 -LC:\mingw_dev_lib\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+
+- Run the game by this command:
+	.\a.exe
+ 
